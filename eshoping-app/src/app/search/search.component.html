@@ -1,0 +1,9 @@
+<div class="serach-div">
+    <span><b>Search:</b></span>
+    <!-- <input type="text" (input)="changeSearchValue($event)"> -->
+    <!-- onewaybinding property binding  -->
+    <input type="text" [(ngModel)]="searchValue"> 
+    <!-- two way binding combination of property & event binding *necessary to impport FormsModule in app modules -->
+    <br>
+    <span *ngIf="searchValue">you serached for:  {{searchValue}}</span>
+</div>
