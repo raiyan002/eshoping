@@ -6,5 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./header.component.css']
 })
 export class HeaderComponent {
-
+  slogan:string= "Your one stop soln for everything."
+  source:string= "../../assets/shoping.jpg"
 }
